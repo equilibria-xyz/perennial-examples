@@ -1,0 +1,27 @@
+{
+  "name": "hedge-pnl",
+  "version": "1.0.0",
+  "description": "A simple repo to return maker positions & exposure periodically",
+  "type": "module",
+  "main": "src/index.ts",
+  "dependencies": {
+    "@pythnetwork/pyth-evm-js": "^1.25.0",
+    "date-fns": "^2.30.0",
+    "viem": "^1.10.4"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "esno": "^0.17.0",
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "start": "esno src/index.ts"
+  },
+  "keywords": [
+    "perennial",
+    "bot",
+    "hedge"
+  ],
+  "author": "l3wi",
+  "license": "MIT"
+}
